@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표 만들기</title>
+</head>
+<body>
+    <h2>행렬의 수가 다른 표 만들기</h2>
+    <pre>
+        colspan속성 : 열(가로)방향으로 합침
+        rowspan속성 : 행(세로)방향으로 합침
+
+    </pre>
+    <table border="1">
+        <caption>표1</caption>
+        <tr>
+            <td>AAAAA</td>
+            <td>bbbbb</td>
+            <td colspan="2">ccccc</td>
+            <td rowspan="3">ddddd</td>
+        </tr>
+        <tr>
+            <td colspan="2">eeeee</td>
+            <td rowspan="3">FFFFF</td>
+            <td>ggg</td>
+        </tr>
+        <tr>
+            <td>hhhhh</td>
+            <td>iiiii</td>
+            <td>hhhhh</td>
+        </tr>
+        <tr>
+            <td>11111</td>
+            <td>22222</td>
+            <td>33333</td>
+            <td>44444</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

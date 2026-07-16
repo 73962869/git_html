@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table tag</title>
+</head>
+<body>
+    <!-- 표를 만드는 태그 : table, tr, th, td, caption colgroup, col
+        th 태그 : 가운데 정렬, 글자 진하게 표시/강조. 
+        colgroup : 컬럼단위 기능적용     
+        col : 열 / column
+        caption tag : 표 제목
+
+        ctrl + shift + l : 전체
+        ctrl + D : 하나씩 중복선택가능
+    -->
+     <table border="1" width="500">
+        <caption><h2>아이폰</h2></caption>
+        <colgroup>
+            <col/>
+            <col style="background-color: aqua;"/>
+            <col/>
+        </colgroup>
+        <thead>
+        <tr><!--  첫번째 줄 -->
+            <th>용도</th>
+            <th>중량</th>
+            <th>가격</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>첫번째 칸</td>
+            <td width="200"><img src="../img/4.webp" width="100"/></td>
+            <td style="color: teal">세번째 칸세번째 칸세번째 칸세번째 칸세번째 칸세번째 칸</td>
+        </tr>
+        <tr style="color: rgba(255, 0, 234, 0.466)">
+            <td>AA<b>AAA</b>A</td>
+            <td>
+                <ol>
+                    <li>HTML연습중</li>
+                    <li>CSS 도한다</li>
+                </ol>
+            </td>
+            <td>CCCCC</td>
+        </tr>
+        </tbody>
+     </table>
+</body>
+</html>
